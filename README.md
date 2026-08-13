@@ -51,9 +51,3 @@ python3 -m venv venv
 ./venv/bin/pip install -r requirements.txt
 ./venv/bin/python predict.py
 ```
-
-## Next steps (documented, not yet done)
-
-- Add features (Neighborhood, KitchenQual, exterior quality) or interaction terms
-- Try non-linear models (Random Forest / Gradient Boosting)
-- Cross-validation instead of a single 80/20 split
